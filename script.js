@@ -117,7 +117,7 @@ function hanged() {
 
 function escaped() { 
   gameInProcess = false;
-  masthead.innerText = "Thankyou, Captain Jack Spparow will remember this";
+  masthead.innerText = "Thankyou, Captain Jack Sparrow will remember this";
   masthead.setAttribute("status", "escaped");
   wins++;
   removeAllListeners();
